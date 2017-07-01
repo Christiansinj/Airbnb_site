@@ -12,12 +12,34 @@ body{
 a{
 font-family: Verdana, sans-serif;
 text-decoration: none;
-font-size: 12px;
-color: black;
+font-size: 15px;			/*deco_menu*/
+color: #484848;
 }
 
 .icon1{
 	
 	width:30px;
-	height:30px;
+	height:30px;       /*icone du menu*/
+}
+
+/*h1_plus_recherche*/
+
+.h1plusrecherche{
+	
+}
+h1{
+	left: 80px;
+	height: 40%
+	width:80%;
+	color: #FF5A5F;
+	top: 20px;
+}
+
+.h1plusrecherche > p{
+	font-size: 20px
+}
+
+.contenu1{
+display: flex;
+justify-content: space-around;
 }
