@@ -44,8 +44,8 @@ h1{
 	height: 40%
 	width:80%;
 	color: #FF5A5F;
-	top: 20px;
-	margin-top: 10px;
+	margin-top: 80px;
+	margin-right: 20px;
 }
 
 .h1plusrecherche > p{
@@ -59,6 +59,7 @@ h1{
 	border: 1px solid rgb(206, 200, 200);
 	border-radius: 4px;
 	box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.50);
+	margin-top: 60px;
 }
 
 .first {
@@ -75,12 +76,33 @@ h1{
 	width: 200px;
 	border: 1px solid rgb(206, 200, 200);
 }
+/*nav church2*/
+#navchurch2{
+	padding-top: 30px;
+}	
+#navchurch2 a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8em;
+}
 
+#navchurch2 a:hover {
+	color: #2E979B;
+	padding-bottom: 21px;
+	border-bottom: 2px solid #2E979B;
+}
+
+hr {
+	border-color: rgba(206, 200, 200, 0.5);
+}
 /*contenu1*/
 .imagec1{
 display: flex;
 justify-content: space-between;
 margin-top: 50px;
+ margin-right:20px;
 }
 
 .imagec1{
@@ -95,8 +117,8 @@ justify-content: space-between;
 margin-top: 50px
 }
 h2,h3{
-	font-size: 15px;
-	color: #484848;
+	font-size: 20px;
+	color: black;
 }
 
 /*contenue3*/
@@ -107,10 +129,13 @@ h2,h3{
 	margin-top: 50px;
 }
 
+hr{
+	color:grey;
+	margin-top: 60px;
+}
+
+
 /*footer*/
 
 /*footer2*/
 
-hr{
-	color:grey;
-}
