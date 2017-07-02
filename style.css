@@ -20,6 +20,7 @@ color: #484848;
 	
 	width:30px;
 	height:30px;       /*icone du menu*/
+	float: left;
 }
 
 /*h1_plus_recherche*/
@@ -33,13 +34,44 @@ h1{
 	width:80%;
 	color: #FF5A5F;
 	top: 20px;
+	margin-top: 10px;
 }
 
 .h1plusrecherche > p{
-	font-size: 20px
+	font-size: 50px
 }
-
+/*contenu1*/
 .contenu1{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+margin-top: 50px;
 }
+
+.imagec1{
+	width: 300px;
+	height: 300px;
+}
+/*contenu2*/
+
+.contenue2{
+display: flex;
+justify-content: space-between;
+margin-top: 50px
+}
+h2,h3{
+	font-size: 15px;
+	color: #484848;
+}
+
+/*contenue3*/
+
+.contenue3{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+/*footer*/
+
+/*footer2*/
+
